@@ -1,18 +1,28 @@
-let payerScore = 0
-let compputerScore = 0
-const buttons = document.querySelector('input')
+/* let payerScore = 0
+let compputerScore = 0 
 
 
+console.log(buttons);
 //Computer random choice:
 function computerPlay() {
     let choices = ['rock', 'paper', 'scissors']
     return choices[Math.floor(Math.random() * choices.length)]
-}
-computerPlay()
+    
+} 
+console.log(computerPlay()); */
+const buttons = document.querySelectorAll('.btn');
 
-// disable buttons at the end of the game:
+buttons.forEach(button =>{
+    button.addEventListener('click', function() {
+        console.log(button.value)
+    } )
+});
+
+
+
+/* disable buttons at the end of the game:
 function disableButtons() {
-    buttons.forEach(elem => {
+    btns.forEach(elem => {
         elem.disabled = true;
     })
-}
+} */
