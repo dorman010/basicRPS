@@ -38,3 +38,13 @@ h2 {
     justify-content: center;
     padding-bottom: 20px;
 }
+
+.playerScore {
+    display: flex;
+    justify-content: center;
+}
+
+.compScore {
+    display: flex;
+    justify-content: center;
+}
