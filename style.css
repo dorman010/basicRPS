@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.game {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
