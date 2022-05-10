@@ -39,7 +39,12 @@ h2 {
     justify-content: center;
 }
 
-.compScore {
+.score {
+    display: flex;
+    justify-content: center;
+}
+
+.compChoice {
     display: flex;
     justify-content: center;
 }
